@@ -12,7 +12,7 @@ createRoot(document.getElementById("root")).render(
   <StrictMode>
     <HallidayPaymentsProvider
       apiKey={import.meta.env.VITE_HALLIDAY_API_KEY}
-      deposit={{ outputs: [BaseUsdc] }}
+      deposit={{ outputs: [SolanaUsdc] }}
     >
       <App />
     </HallidayPaymentsProvider>

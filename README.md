@@ -4,7 +4,7 @@ Vite + React demo that onramps from fiat or swaps from Solana assets into USDC o
 
 Halliday SDK v4.1.0 with Solana wallet as funder.
 
-In App.jsx, set `DESTINATION_ADDRESS` to an EVM address. This is where the output token arrives (USDC on Base).
+In App.jsx, set `DESTINATION_ADDRESS` to an EVM or Solana address. The chain of the destination address must match the chain of output token address!
 
 ## Setup
 

@@ -8,7 +8,8 @@ const SolanaUsdc = "solana:EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v";
 const SolanaSol = "solana:so11111111111111111111111111111111111111111";
 const BaseUsdc = "base:0x833589fCD6eDb6E08f4c7C32D4f71b54bdA02913";
 
-const DESTINATION_ADDRESS = ""; // Wallet or app account on EVM chains
+// Wallet or app account on EVM or Solana. Chain must match the output token's chain!
+const DESTINATION_ADDRESS = "";
 
 export default function App() {
   const { openDeposit, updateWallets, error: sdkError } = useHallidayPayments();
