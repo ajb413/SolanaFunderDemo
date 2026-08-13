@@ -49,11 +49,8 @@ export default function App() {
 
   return (
     <main>
-      <h1>Solana USDC — Halliday Demo</h1>
-      <p className="sub">Onramp with cash or swap Solana assets into USDC.</p>
-
       <button disabled={busy} onClick={start}>
-        {busy ? "Connecting…" : "Deposit USDC with Halliday"}
+        {busy ? "Connecting…" : "Deposit with Halliday"}
       </button>
 
       {error && <p className="error">{error}</p>}
